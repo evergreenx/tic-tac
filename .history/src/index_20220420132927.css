@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Secular+One&display=swap');
+
+
+body {
+
+font-family: 'Secular One', sans-serif
+}
+
+.app
+.heading {
+  color:rgb(25, 0, 255);
+  font-size:50px
+}

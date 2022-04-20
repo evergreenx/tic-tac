@@ -16,5 +16,5 @@ font-family: 'Secular One', sans-serif
 .heading {
   color:#008cff9a;
   font-size:50px;
-
+  box-shadow: 0px 0px 10px #008cff9a;
 }

@@ -10,11 +10,10 @@ font-family: 'Secular One', sans-serif
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space;
   height: 100vh;
 }
 .heading {
-  color:#008cff9a;
-  font-size:50px;
-
+  color:rgb(25, 0, 255);
+  font-size:50px
 }

@@ -5,13 +5,13 @@ import Board from "./components/Board"
 function App() {
   return (
     <div className="App">
-      <h1 className="heading">Let's play the Tic-Tac</h1>
+      <h1 className="heading">Let play the Tic Tac Toe</h1>
 
 
 
 
 
-      <Board />
+      <Board ></Board>
     </div>
   );
 }
