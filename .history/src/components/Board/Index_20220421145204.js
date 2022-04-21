@@ -27,6 +27,8 @@ function Index() {
     return null;
   };
 
+ 
+
   // handle click event on box
   const handleClickOnBox = (index) => {
     if (boxes[index] || handleWinning()) {
@@ -42,22 +44,17 @@ function Index() {
   const winner = handleWinning(boxes);
   let status;
 
-  // if there is a winner, display the winner
   if (winner) {
     status = `Winner is : ${winner}`;
-    alert(status);
   }
-  // handle if draw in game
+  // handle draw
   else if (boxes.every((box) => box !== null)) {
     status = "Draw";
-    alert(status);
-
-    // next player to take turn
+    // show next player to take turn
   } else {
     status = "Next player: " + (isXNext ? "X" : "O");
   }
 
-  // function to reset the game to intial state
   const handleResetGame = () => {
     setBoxes(Array(9).fill(null));
     setIsXNext(true);

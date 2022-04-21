@@ -57,7 +57,7 @@ function Index() {
     status = "Next player: " + (isXNext ? "X" : "O");
   }
 
-  // function to reset the game to intial state
+  // function to reset the game
   const handleResetGame = () => {
     setBoxes(Array(9).fill(null));
     setIsXNext(true);
