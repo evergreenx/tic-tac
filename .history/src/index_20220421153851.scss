@@ -1,0 +1,45 @@
+$primary-color: #13243c;
+
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Secular+One&family=Varela+Round&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Secular One", sans-serif;
+}
+
+.App {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  height: 100vh;
+
+  .board-text {
+    .heading {
+      // color: $primary-color;
+      font-size: 50px;
+      margin-bottom: 20px;
+      // background: #bdc3c7; /* fallback for old browsers */
+      color: -webkit-linear-gradient(
+        to right,
+        #bdc3c7,
+        #2c3e50
+      ); /* Chrome 10-25, Safari 5.1-6 */
+      color: linear-gradient(
+        to right,
+        #bdc3c7,
+        #2c3e50
+      ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .App {
+    flex-direction: column;
+  }
+}

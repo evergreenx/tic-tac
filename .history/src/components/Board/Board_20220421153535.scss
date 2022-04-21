@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: row;
   padding: 30px;
+  linear-gradient(60deg, #070ff4, #f90a0a)
 }
 
 .game--indicator {
@@ -10,6 +11,7 @@
   align-items: center;
   justify-content: center;
   margin-bottom: 20px;
+
   .game--status {
     font-size: 15px;
     font-weight: bold;
