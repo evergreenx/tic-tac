@@ -1,0 +1,21 @@
+.board {
+  display: flex;
+  flex-direction: row;
+  padding: 30px;
+}
+
+.game-status {
+  align-self: flex-end;
+  margin-top: 30px;
+}
+.reset--button--text {
+  color: $primary-color;
+  font-size: 1.2rem;
+  padding: 10px 30px;
+  border: 1px 13243C solid;
+  border-radius: 50px;
+  cursor: pointer;
+  background-color: #fff;
+  margin-top: 20px;
+  font-weight: 600;
+}

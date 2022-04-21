@@ -1,0 +1,9 @@
+.board {
+  display: flex;
+  flex-direction: row;
+}
+
+.game-status{
+    align-self: flex-end;
+    margin-bottom: 20px;
+}

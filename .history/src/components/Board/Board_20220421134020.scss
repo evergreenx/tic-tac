@@ -1,0 +1,10 @@
+.board {
+  display: flex;
+  flex-direction: row;
+   padding: 30px;
+}
+
+.game-status{
+    align-self: flex-end;
+    padding: 30px 0;
+}
