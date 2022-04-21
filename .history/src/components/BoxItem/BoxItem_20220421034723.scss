@@ -1,0 +1,29 @@
+$bordrd-border-color: #c92121;
+
+.column {
+  font-size: 2em;
+  font-weight: 800;
+  padding: 30px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  background: #fff;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  min-height: 100px;
+  min-width: 100px;
+}
+
+.border-bottom-right {
+  border-right: 2px solid $border-color;
+  border-bottom: 2px solid $border-color;
+}
+
+.border-bottom {
+  border-bottom: 2px solid rgb(0, 217, 255);
+}
+
+.border-right {
+  border-right: 2px solid rgb(0, 217, 255);
+}

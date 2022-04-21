@@ -1,0 +1,36 @@
+.column {
+  font-size: 2em;
+  font-weight: 800;
+  padding: 30px;
+  margin: 20px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  // box-shadow: 0 0 8px #888;
+  background: #fff;
+  border-radius: 5px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  min-height: 100px;
+  min-width: 100px;
+
+  &:hover {
+    box-shadow: 0 0 8px #888;
+  }
+
+  
+}
+
+.border-bottom-right { 
+    border-right: 10px solid red;
+    border-bottom: 10px solid red;
+  }
+
+  .border-bottom {
+    border-bottom: 15px solid #1CDBF5;
+}
+
+.border-right {
+    border-right: 15px solid #1CDBF5;
+}

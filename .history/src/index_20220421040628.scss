@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Secular+One&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Secular One", sans-serif;
+}
+
+.App {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  height: 100vh;
+
+
+  .board-text
+}
+
+
+@media (max-width: 768px) {
+  .App {
+    flex-direction: column;
+  }
+}

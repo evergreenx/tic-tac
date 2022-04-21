@@ -1,0 +1,13 @@
+.board {
+  display: grid;
+  grid-template-columns: repeat(3 , 4rem);
+
+  button {
+    font-size: 30px;
+    font-weight: 800;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+  }
+}

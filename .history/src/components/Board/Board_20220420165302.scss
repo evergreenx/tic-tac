@@ -1,0 +1,19 @@
+
+
+.board {
+    
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+
+    button {
+        font-size:30px ; font-weight: 800;
+        padding:10px;
+        border:none ; 
+        cursor: pointer;
+        outline:none;
+        cursor: pointer;
+
+    }
+}

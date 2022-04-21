@@ -1,0 +1,31 @@
+$boardborder-color: #c921bb;
+$boardborder-width: 1px;
+
+.column {
+  font-size: 2em;
+  font-weight: 800;
+  padding: 30px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  background: #fff;
+box-
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  min-height: 100px;
+  min-width: 100px;
+}
+
+.border-bottom-right {
+  border-right: $boardborder-width solid $boardborder-color;
+  border-bottom: $boardborder-width solid $boardborder-color;
+}
+
+.border-bottom {
+  border-bottom: $boardborder-width solid $boardborder-color;
+}
+
+.border-right {
+  border-right: $boardborder-width solid $boardborder-color;
+}
